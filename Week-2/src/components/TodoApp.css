@@ -12,7 +12,11 @@
   background-color: #f2f2f2;
   min-height: 100vh;
   padding: 2rem;
-  transition: background-color 0.4s;
+  transition: background-color 0.4s;;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -ms-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
 }
 
 .todo-container.dark {
