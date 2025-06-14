@@ -1,12 +1,69 @@
-# React + Vite
+# 📝 Modern React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and modern **To-Do List** built with **React + Vite**. Supports task creation, completion marking ✅, deletion 🗑️, filtering 🔍, sorting ⬆⬇, dark/light mode 🌙☀️, and persistent local storage 🔄. Designed with smooth UI/UX in mind using modern CSS and Google Fonts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add, remove, and mark tasks as completed
+- 🎨 Modern UI with **dark/light mode toggle**
+- 💾 Data persistence via **localStorage**
+- 🔍 Filter: All / Active / Completed
+- ⬆ Sort: Alphabetical A-Z / Z-A
+- 📱 Fully responsive and mobile-friendly
+- 🎯 Keyboard-friendly: press **Enter** to add task
+- 🧠 Smart focus on input field
+- 🧹 Scrollable task area (if list overflows)
+- ✨ Stylish Google Fonts and iconography
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### ✅ Light Mode
+
+![Light Mode](src/assets/todo-light.png)
+
+### 🌙 Dark Mode
+
+![Dark Mode](src/assets/todo-dark.png)
+
+---
+
+## 🎬 Demo Video
+
+👉 [Click here to watch the demo on Loom](https://www.loom.com/share/d16143e5b025404ab304b1e6b39535bf?sid=b05b2b54-fd20-4a20-abaf-0c9508d948f8)
+
+
+---
+
+📁 Project Structure
+
+todo-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── TodoApp.jsx
+│   │   └── TodoApp.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── assets/
+│   ├── todo-light.png
+│   └── todo-dark.png
+├── README.md
+├── package.json
+└── vite.config.js
+
+✅ Testing Guide
+  -> Try typing a task and pressing Enter
+  -> Toggle between Dark / Light Mode
+  -> Try deleting tasks or marking them as complete
+  -> Reload to confirm data persistence
+  -> Filter and sort using dropdowns
+  -> Resize browser to test responsiveness
+
+🧑‍💻 Author
+Made with ❤️ by Dev Kaushik.
