@@ -23,11 +23,11 @@ A clean, responsive, and modern **To-Do List** built with **React + Vite**. Supp
 
 ### ✅ Light Mode
 
-![Light Mode](src/assets/todo-light.png)
+![Light Mode](Week-2/src/assets/todo-light.png)
 
 ### 🌙 Dark Mode
 
-![Dark Mode](src/assets/todo-dark.png)
+![Dark Mode](Week-2/src/assets/todo-dark.png)
 
 ---
 
